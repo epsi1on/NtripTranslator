@@ -20,6 +20,6 @@ it will not happen at same time. so can be served on different ports or differen
 
 # NTrip Elements
 
-- Client: Http Client, such as rover which only pull data from server
-- Server: Http Client, such as base station which only push data (correction) to server
-- Caster: machine with public IP, Server will connect to it and push the data to it. client will connect and pull the data from it.
+- Client: Http Client, such as rover which pull data from server
+- Server: Http Client, such as base station which push data to server
+- Caster: Http server on a machine with public IP, Server will connect to it and push the data to it and it stores the data, then client will connect and pull the data from it.

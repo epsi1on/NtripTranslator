@@ -34,7 +34,7 @@ namespace V1Translator
 
             var req = XttpRequest.ReadXttpReq(myStream);
 
-
+            //todo: continue from here
 
         }
 
