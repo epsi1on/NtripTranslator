@@ -1,6 +1,11 @@
+Notice
+==
 
-﻿# Intro
+Incomplete code, code do not works as expected.
 
+
+﻿Intro
+==
 This software is responsible to listen on a TCP port for incoming NTRIPCaster V1.0 and translate then send to remote NtripCaster v2.
 
 ntrip v1 is not pure HTTP, it have some minor protocol viloation. but V2 is pure HTTP so could be served by HttpListener builtin dotnet. 
